@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testes - Rodapé</title>
+    <link rel="stylesheet" href="../style/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        header > i#menu {
+            display: block;
+            color: white;
+            position: relative;
+            max-width: 38px;
+            left: 295px;
+            bottom: 65px;
+            cursor: pointer;
+        }
+
+        header > menu#itens {
+            position: relative;
+            background-color: #C00000;
+            max-width: 110px;
+            max-height: 150px;
+            left: 264px;
+            bottom: 85px;
+        }
+        
+        header > menu#itens > a {
+            margin: 2.2px;
+            color: white;
+            text-decoration: none;
+        }
+
+        header > menu#itens > a:hover {
+            color: rgb(207, 207, 207);
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <i id="menu" class="material-icons" onclick="clickMenu()">menu</i>
+    <menu id="itens">
+        <ul>
+            <li><a href=""></a></li>
+        </ul>
+    </menu>
+    <script>
+        function clickMenu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+                pessoa.style.display = 'none'
+            }
+        }
+    </script>
+</body>
+</html>
