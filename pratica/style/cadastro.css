@@ -10,7 +10,7 @@ img {
 }
 
 .formulario {
-    height: 460px;
+    height: 480px;
     margin: auto;
     margin-top: 90px;
     text-align: center;
@@ -81,12 +81,15 @@ input[type=submit]:hover {
     margin-bottom: 0;
 }
 
-#logar {
+#login01 {
+    text-decoration: none;
+    padding-left: 20px;
+    padding-right: 200px;
     color: var(--cor1);
     font-size: 0.45em;
 }
 
-#logar:hover {
+#login01:hover {
     color: #274b40;
     text-decoration: underline;
 }
