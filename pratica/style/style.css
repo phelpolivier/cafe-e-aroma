@@ -224,13 +224,14 @@
     }
     
     #logar {
-        padding: 24px;
-        padding-left: 44px;
-        padding-right: 44px;
+        padding: 20px;
+        padding-left: 40px;
+        padding-right: 40px;
         background-color: var(--cor2);
         color: var(--cor1);
         border-radius: 7px;
         border: 0.5px solid var(--cor2);
+        font-size: 22px;
     }
     
     #logar:hover {
@@ -252,6 +253,7 @@
     #link {
         color: var(--cor2);
         text-decoration: none;
+        font-size: 22px;
     }
     
     #link:hover {
@@ -270,22 +272,24 @@
         text-decoration: none;
         color: #c0a87d;
     }
-    
+
+    /*Rodapé*/
     footer {
         border-top: 2px solid black;
         background-color: var(--cor1);
-        width: 1343px;
-        height: 185px;
+        width: 1920px;
+        height: 210px;
     } 
     
     #apps {
-        margin: 10px;
-        margin-top: 35px;
+        margin: 7px;
+        margin-top: 45px;
+        margin-left: 20px;
     }
     
     #extras, .extras {
-        margin-left: 7px;
-        font-size: 1.1em;
+        margin-left: 12px;
+        font-size: 1.2em;
         color: var(--cor2);
     }
     
@@ -300,13 +304,14 @@
     
     #copyright {
         margin-top: 7px;
-        margin-left: 15px;
+        margin-left: 22px;
+        font-size: 0.8em;
         color: rgb(184, 184, 184);
     }
     
     #mini {
         float: right;
-        margin-right: 20px;
-        margin-top: 35px;
+        margin-right: 40px;
+        margin-top: 50px;
     }
 }
