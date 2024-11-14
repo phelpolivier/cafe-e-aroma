@@ -2,7 +2,7 @@
     .pt1 {
         width: 1342px;
         height: 500px;
-        background-image: image-set("../image/home/image1-medio.jpg");
+        background-image: image-set("image/home/image1-medio.jpg");
         background-position: center center;
         background-repeat: no-repeat;
         text-align: center;
@@ -18,7 +18,7 @@
     #pt2 {
         width: 1342px;
         height: 350px;
-        background-image: image-set("../image/home/image-5 (2).jpg");
+        background-image: image-set("image/home/image-5 (2).jpg");
         background-position: center center;
         background-repeat: no-repeat;
         border-top: 6px solid rgb(0, 0, 0);
@@ -87,20 +87,20 @@
     }
     
     div#capsula {
-        background-image: image-set("../image/home/capsulas.jpg");
+        background-image: image-set("image/home/capsulas.jpg");
         float: left;
         width: 440px;
         height: 510px;
     }
     
     div#grao {
-        background-image: image-set("../image/home/graos.jpg");
+        background-image: image-set("image/home/graos.jpg");
         width: 442px;
         height: 510px;
     }
     
     div#po {
-        background-image: image-set("../image/home/po.jpg");
+        background-image: image-set("image/home/po.jpg");
         float: right;
         width: 442px;
         height: 510px;
@@ -111,7 +111,7 @@
     .pt1 {
         width: 1920px;
         height: 700px;
-        background-image: image-set("../image/home/file.jpg");
+        background-image: image-set("image/home/file.jpg");
         background-position: center center;
         background-repeat: no-repeat;
         text-align: center;
@@ -128,7 +128,7 @@
     #pt2 {
         width: 1920px;
         height: 450px;
-        background-image: image-set("../image/home/quem-somos(grande).png");
+        background-image: image-set("image/home/quem-somos(grande).png");
         background-position: center center;
         background-repeat: no-repeat;
         border-top: 6px solid rgb(0, 0, 0);
@@ -198,20 +198,20 @@
     }
     
     div#capsula {
-        background-image: image-set("../image/home/capsulas(grande).jpg");
+        background-image: image-set("image/home/capsulas(grande).jpg");
         float: left;
         width: 634px;
         height: 770px;
     }
     
     div#grao {
-        background-image: image-set("../image/home/graos(grande).jpg");
+        background-image: image-set("image/home/graos(grande).jpg");
         width: 634px;
         height: 770px;
     }
     
     div#po {
-        background-image: image-set("../image/home/po(grande).jpg");
+        background-image: image-set("image/home/po(grande).jpg");
         float: right;
         width: 634px;
         height: 770px;

@@ -1,0 +1,52 @@
+@media screen and (max-width: 1400px) {
+    .carrossel {
+        width: 1357px;
+        height: 440px;
+        background-color: gray;
+    }
+
+    .mais-vendidos {
+        padding-top: 40px;
+    }
+
+    h4 {
+        text-align: center;
+        font-family: var(--font2);
+    }
+}
+
+@media screen and (min-width: 1900px) {
+    .carrossel {
+        width: 1920px;
+        height: 643px;
+        background-color: gray;
+    }
+
+    .mais-vendidos {
+        padding-top: 45px;
+    }
+
+    h4 {
+        text-align: center;
+        font-family: var(--font2);
+    }
+
+    .produtos-mv {
+        margin: auto;
+        width: 1880px;
+        height: 550px;
+    }
+
+    #img-pdt1-mv {
+        height: 300px;
+        background-color: rgb(190, 190, 190);
+    }
+
+    #pdt1-mv {
+        float: left;
+        margin-left: 120px;
+        width: 250px;
+        height: 350px;
+        border: 1px solid black;
+    }
+}
