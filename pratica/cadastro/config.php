@@ -1,18 +1,16 @@
-<?php // conexão com banco de dados 
-     $dbHost = 'localhost';
-     $dbUsername = 'root';
-     $dbPassword = 'root';
-     $dbName = 'CoffeAroma'; 
+<?php 
 
-     $conexao = new mysqli($dbHost,$dbUsername,$dbPassword,$dbName);
+    $hostname = "localhost";
+    $bancodedados = "coffearoma";
+    $usuario = "root";
+    $senha = "root";
 
-     if($conexao->connect_error) // teste para ver a conexão 
-     {
-     echo "Erro"; // erro caso não conecte
-     } 
-     else
-     {
-     echo "Conexão efetuada com sucesso"; // sucesso conectou corretamente 
-     }
-     // agr vai pro date com o cadastro
+    $mysqli = mysqli_connect($hostname, $usuario, $senha, $bancodedados);
+    
+    $nome=$_POST['nome'];
+    $email=$_POST['email'];
+    $senha=$_POST['senha'];
+
+    $sql="insert into Pessoa(nome,email,senha) values('$nome','$email','$senha')";
+    mysqli_query($mysqli,$sql);
 ?> 
