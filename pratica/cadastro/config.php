@@ -1,5 +1,4 @@
 <?php 
-
     $hostname = "localhost";
     $bancodedados = "coffearoma";
     $usuario = "root";

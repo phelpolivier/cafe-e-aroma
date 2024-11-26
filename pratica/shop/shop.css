@@ -16,15 +16,38 @@
         color: red;
     }
 
-    #link-for-teste:hover {
-        scale: 10%;
-        transition: 0.2s;
+    #car-img{
+        position:absolute;
+        width:100%;
+        height:100%;
+        margin-left:100%;
+    
+        -webkit-transition: margin-left 500ms ease-in;
+        -moz-transition: margin-left 500ms ease-in;
+        -o-transition: margin-left 500ms ease-in;
+        transition: margin-left 500ms ease-in;
+    }
+    
+    #container{
+        overflow:hidden;
+        position: relative;
+        width:1920px;
+        height:640px;
+
+        max-width: 100%;
+        -moz-transition: all 0.3s;
+        -webkit-transition: all 0.3s;
+        transition: all 0.3s;
     }
 
-    .carrossel {
-        width: 1920px;
-        height: 640px;
-        background-color: gray;
+    #container:hover img {
+        -moz-transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+
+    .ativa{
+        margin-left:0%;
     }
 
     h4 {
@@ -58,6 +81,11 @@
         height: 300px;
         background-color: rgb(190, 190, 190);
         border-radius: 7px;
+
+        max-width: 100%;
+        -moz-transition: all 0.3s;
+        -webkit-transition: all 0.3s;
+        transition: all 0.3s;
     }
 
     #pdt1-mv {
@@ -66,11 +94,35 @@
         width: 250px;
         height: 350px;
         border-radius: 5px;
+        overflow: hidden;
+
+        max-width: 100%;
+        -moz-transition: all 0.3s;
+        -webkit-transition: all 0.3s;
+        transition: all 0.3s;
+    }
+
+    #pdt1-mv:hover {
+        -moz-transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+
+    #img-pdt1-mv:hover img {
+        -moz-transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
     }
 
     #img-pdt2-mv {
         height: 300px;
         background-color: rgb(190, 190, 190);
+        border-radius: 7px;
+
+        max-width: 100%;
+        -moz-transition: all 0.3s;
+        -webkit-transition: all 0.3s;
+        transition: all 0.3s;
     }
 
     #pdt2-mv {
@@ -78,12 +130,29 @@
         margin-left: 75px;
         width: 250px;
         height: 350px;
-        border: 1px solid black;
+        border-radius: 5px;
+        overflow: hidden;
+    }
+
+    #pdt2-mv:hover {
+        -moz-transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+
+    #img-pdt2-mv:hover img {
+        -moz-transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
     }
 
     #img-pdt3-mv {
         height: 300px;
         background-color: rgb(190, 190, 190);
+
+        -moz-transition: all 0.3s;
+        -webkit-transition: all 0.3s;
+        transition: all 0.3s;
     }
 
     #pdt3-mv {
@@ -91,34 +160,83 @@
         margin-left: 75px;
         width: 250px;
         height: 350px;
-        border: 1px solid black;
+        border-radius: 5px;
+        overflow: hidden;
     }    
+
+    #pdt3-mv:hover {
+        -moz-transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+
+    #img-pdt3-mv:hover img {
+        -moz-transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
 
     #img-pdt4-mv {
         height: 300px;
         background-color: rgb(190, 190, 190);
+
+        max-width: 100%;
+	    -moz-transition: all 0.3s;
+	    -webkit-transition: all 0.3s;
+	    transition: all 0.3s;
     }
 
     #pdt4-mv {
         float: left;
-        margin-left: 75px;
-        width: 250px;
-        height: 350px;
-        border: 1px solid black;
+	    margin-left: 75px;
+	    width: 250px;
+	    height: 350px;
+	    border-radius: 5px;
+	    overflow: hidden;
     }  
+
+    #pdt4-mv:hover {
+        -moz-transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+
+    #img-pdt4-mv:hover img {
+        -moz-transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
 
     #img-pdt5-mv {
         height: 300px;
         background-color: rgb(190, 190, 190);
+
+        max-width: 100%;
+	    -moz-transition: all 0.3s;
+	    -webkit-transition: all 0.3s;
+	    transition: all 0.3s;
     }
 
     #pdt5-mv {
         float: left;
-        margin-left: 75px;
-        width: 250px;
-        height: 350px;
-        border: 1px solid black;
+	    margin-left: 75px;
+	    width: 250px;
+	    height: 350px;
+	    border-radius: 5px;
+	    overflow: hidden;
     }  
+
+    #pdt5-mv:hover {
+        -moz-transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+
+    #img-pdt5-mv:hover img {
+        -moz-transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
 
     /* TOP 10 - MÁQUINAS */
 
@@ -135,67 +253,157 @@
     #img-pdt1-tm {
         height: 300px;
         background-color: rgb(190, 190, 190);
+
+        max-width: 100%;
+	    -moz-transition: all 0.3s;
+	    -webkit-transition: all 0.3s;
+	    transition: all 0.3s;
     }
 
     #pdt1-tm {
         float: left;
-        margin-left: 160px;
-        width: 250px;
-        height: 350px;
-        border: 1px solid black;
+	    margin-left: 160px;
+	    width: 250px;
+	    height: 350px;
+	    border-radius: 5px;
+	    overflow: hidden;
+    }
+
+    #pdt1-tm:hover {
+        -moz-transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+
+    #img-pdt1-tm:hover img {
+        -moz-transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
     }
 
     #img-pdt2-tm {
         height: 300px;
         background-color: rgb(190, 190, 190);
+
+        max-width: 100%;
+	    -moz-transition: all 0.3s;
+	    -webkit-transition: all 0.3s;
+	    transition: all 0.3s;
     }
 
     #pdt2-tm {
         float: left;
-        margin-left: 75px;
-        width: 250px;
-        height: 350px;
-        border: 1px solid black;
+	    margin-left: 75px;
+	    width: 250px;
+	    height: 350px;
+	    border-radius: 5px;
+	    overflow: hidden;
+    }
+
+    #pdt2-tm:hover {
+        -moz-transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+
+    #img-pdt2-tm:hover img {
+        -moz-transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
     }
 
     #img-pdt3-tm {
         height: 300px;
         background-color: rgb(190, 190, 190);
+
+        max-width: 100%;
+	    -moz-transition: all 0.3s;
+	    -webkit-transition: all 0.3s;
+	    transition: all 0.3s;
     }
 
     #pdt3-tm {
         float: left;
-        margin-left: 75px;
-        width: 250px;
-        height: 350px;
-        border: 1px solid black;
+	    margin-left: 75px;
+	    width: 250px;
+	    height: 350px;
+	    border-radius: 5px;
+	    overflow: hidden;
     }    
+
+    #pdt3-tm:hover {
+        -moz-transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+
+    #img-pdt3-tm:hover img {
+        -moz-transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
 
     #img-pdt4-tm {
         height: 300px;
         background-color: rgb(190, 190, 190);
+
+        max-width: 100%;
+	    -moz-transition: all 0.3s;
+	    -webkit-transition: all 0.3s;
+	    transition: all 0.3s;
     }
 
     #pdt4-tm {
         float: left;
-        margin-left: 75px;
-        width: 250px;
-        height: 350px;
-        border: 1px solid black;
+	    margin-left: 75px;
+	    width: 250px;
+	    height: 350px;
+	    border-radius: 5px;
+	    overflow: hidden;
     }  
+
+    #pdt4-tm:hover {
+        -moz-transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+
+    #img-pdt4-tm:hover img {
+        -moz-transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
 
     #img-pdt5-tm {
         height: 300px;
         background-color: rgb(190, 190, 190);
+
+        max-width: 100%;
+	    -moz-transition: all 0.3s;
+	    -webkit-transition: all 0.3s;
+	    transition: all 0.3s;
     }
 
     #pdt5-tm {
         float: left;
-        margin-left: 75px;
-        width: 250px;
-        height: 350px;
-        border: 1px solid black;
+	    margin-left: 75px;
+	    width: 250px;
+	    height: 350px;
+	    border-radius: 5px;
+	    overflow: hidden;
     } 
+
+    #pdt5-tm:hover {
+        -moz-transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+
+    #img-pdt5-tm:hover img {
+        -moz-transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
 
     /* TOP 10 - CÁPSULAS */
 
@@ -212,67 +420,157 @@
     #img-pdt1-tc {
         height: 300px;
         background-color: rgb(190, 190, 190);
+
+        max-width: 100%;
+	    -moz-transition: all 0.3s;
+	    -webkit-transition: all 0.3s;
+	    transition: all 0.3s;
     }
 
     #pdt1-tc {
         float: left;
-        margin-left: 160px;
-        width: 250px;
-        height: 350px;
-        border: 1px solid black;
+	    margin-left: 160px;
+	    width: 250px;
+	    height: 350px;
+	    border-radius: 5px;
+	    overflow: hidden;
+    }
+
+    #pdt1-tc:hover {
+        -moz-transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+
+    #img-pdt1-tc:hover img {
+        -moz-transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
     }
 
     #img-pdt2-tc {
         height: 300px;
         background-color: rgb(190, 190, 190);
+
+        max-width: 100%;
+	    -moz-transition: all 0.3s;
+	    -webkit-transition: all 0.3s;
+	    transition: all 0.3s;
     }
 
     #pdt2-tc {
         float: left;
-        margin-left: 75px;
-        width: 250px;
-        height: 350px;
-        border: 1px solid black;
+	    margin-left: 75px;
+	    width: 250px;
+	    height: 350px;
+	    border-radius: 5px;
+	    overflow: hidden;
+    }
+
+    #pdt2-tc:hover {
+        -moz-transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+
+    #img-pdt2-tc:hover img {
+        -moz-transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
     }
 
     #img-pdt3-tc {
         height: 300px;
         background-color: rgb(190, 190, 190);
+
+        max-width: 100%;
+	    -moz-transition: all 0.3s;
+	    -webkit-transition: all 0.3s;
+	    transition: all 0.3s;
     }
 
     #pdt3-tc {
         float: left;
-        margin-left: 75px;
-        width: 250px;
-        height: 350px;
-        border: 1px solid black;
+	    margin-left: 75px;
+	    width: 250px;
+	    height: 350px;
+	    border-radius: 5px;
+	    overflow: hidden;
     }    
+
+    #pdt3-tc:hover {
+        -moz-transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+
+    #img-pdt3-tc:hover img {
+        -moz-transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
 
     #img-pdt4-tc {
         height: 300px;
         background-color: rgb(190, 190, 190);
+
+        max-width: 100%;
+	    -moz-transition: all 0.3s;
+	    -webkit-transition: all 0.3s;
+	    transition: all 0.3s;
     }
 
     #pdt4-tc {
         float: left;
-        margin-left: 75px;
-        width: 250px;
-        height: 350px;
-        border: 1px solid black;
+	    margin-left: 75px;
+	    width: 250px;
+	    height: 350px;
+	    border-radius: 5px;
+	    overflow: hidden;
     }  
+
+    #pdt4-tc:hover {
+        -moz-transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+
+    #img-pdt4-tc:hover img {
+        -moz-transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
 
     #img-pdt5-tc {
         height: 300px;
         background-color: rgb(190, 190, 190);
+
+        max-width: 100%;
+	    -moz-transition: all 0.3s;
+	    -webkit-transition: all 0.3s;
+	    transition: all 0.3s;
     }
 
     #pdt5-tc {
         float: left;
-        margin-left: 75px;
-        width: 250px;
-        height: 350px;
-        border: 1px solid black;
+	    margin-left: 75px;
+	    width: 250px;
+	    height: 350px;
+	    border-radius: 5px;
+	    overflow: hidden;
     } 
+
+    #pdt5-tc:hover {
+        -moz-transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+
+    #img-pdt5-tc:hover img {
+        -moz-transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
 
     /* TOP 10 - PÓS E GRÃOS */
 
@@ -289,71 +587,207 @@
     #img-pdt1-tp {
         height: 300px;
         background-color: rgb(190, 190, 190);
+
+        max-width: 100%;
+	    -moz-transition: all 0.3s;
+	    -webkit-transition: all 0.3s;
+	    transition: all 0.3s;
     }
 
     #pdt1-tp {
         float: left;
-        margin-left: 160px;
-        width: 250px;
-        height: 350px;
-        border: 1px solid black;
+	    margin-left: 160px;
+	    width: 250px;
+	    height: 350px;
+	    border-radius: 5px;
+	    overflow: hidden;
+    }
+
+    #pdt1-tp:hover {
+        -moz-transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+
+    #img-pdt1-tp:hover img {
+        -moz-transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
     }
 
     #img-pdt2-tp {
         height: 300px;
         background-color: rgb(190, 190, 190);
+
+        max-width: 100%;
+	    -moz-transition: all 0.3s;
+	    -webkit-transition: all 0.3s;
+	    transition: all 0.3s;
     }
 
     #pdt2-tp {
         float: left;
-        margin-left: 75px;
-        width: 250px;
-        height: 350px;
-        border: 1px solid black;
+	    margin-left: 75px;
+	    width: 250px;
+	    height: 350px;
+	    border-radius: 5px;
+	    overflow: hidden;
+    }
+ 
+    #pdt2-tp:hover {
+        -moz-transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+
+    #img-pdt2-tp:hover img {
+        -moz-transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
     }
 
     #img-pdt3-tp {
         height: 300px;
         background-color: rgb(190, 190, 190);
+
+        max-width: 100%;
+	    -moz-transition: all 0.3s;
+	    -webkit-transition: all 0.3s;
+	    transition: all 0.3s;
     }
 
     #pdt3-tp {
         float: left;
-        margin-left: 75px;
-        width: 250px;
-        height: 350px;
-        border: 1px solid black;
+	    margin-left: 75px;
+	    width: 250px;
+	    height: 350px;
+	    border-radius: 5px;
+	    overflow: hidden;
     }    
+
+    #pdt3-tp:hover {
+        -moz-transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+
+    #img-pdt3-tp:hover img {
+        -moz-transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
 
     #img-pdt4-tp {
         height: 300px;
         background-color: rgb(190, 190, 190);
+
+        max-width: 100%;
+	    -moz-transition: all 0.3s;
+	    -webkit-transition: all 0.3s;
+	    transition: all 0.3s;
     }
 
     #pdt4-tp {
         float: left;
-        margin-left: 75px;
-        width: 250px;
-        height: 350px;
-        border: 1px solid black;
+	    margin-left: 75px;
+	    width: 250px;
+	    height: 350px;
+	    border-radius: 5px;
+	    overflow: hidden;
     }  
+
+    #pdt4-tp:hover {
+        -moz-transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+
+    #img-pdt4-tp:hover img {
+        -moz-transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
 
     #img-pdt5-tp {
         height: 300px;
         background-color: rgb(190, 190, 190);
+
+        max-width: 100%;
+	    -moz-transition: all 0.3s;
+	    -webkit-transition: all 0.3s;
+	    transition: all 0.3s;
     }
 
     #pdt5-tp {
         float: left;
-        margin-left: 75px;
-        width: 250px;
-        height: 350px;
-        border: 1px solid black;
+	    margin-left: 75px;
+	    width: 250px;
+	    height: 350px;
+	    border-radius: 5px;
+	    overflow: hidden;
     } 
 
+    #pdt5-tp:hover {
+        -moz-transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+
+    #img-pdt5-tp:hover img {
+        -moz-transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+
     .area-premium {
-        height: 560px;
+        height: 520px;
+        /*background-color: var(--cor3);*/
+        background-image: image-set("../image/shop/premium.png");
+        background-repeat: no-repeat;
+        background-position: left center;
+        background-size: 140%;
+    }
+
+    .area-premium > img {
+        margin-top: 130px;
+        margin-left: 95px;
+    }
+
+    #text-premium {
+        margin-left: 95px;
+        margin-top: 10px;
+        color: white;
+    }
+
+    #seja-premium {
+        margin-left: 95px;
+        padding: 12px;
         background-color: var(--cor3);
+        text-decoration: none;
+        color: white;
+        border: 1px solid var(--cor3);
+        border-radius: 6px;
+    }
+
+    #seja-premium:hover {
+        transition: 0.2s;
+        background-color: #503722;
+    }
+
+    #planos-premium {
+        margin-left: 12px;
+        padding: 12px;
+        background-color: rgba(255, 255, 255, 0);
+        text-decoration: none;
+        color: var(--cor3);
+        border: 1px solid var(--cor3);
+        border-radius: 6px;
+    }
+
+    #planos-premium:hover {
+        transition: 0.2s;
+        border: 1px solid white;
+        color: white;
     }
 
     #payment {

@@ -1,16 +1,25 @@
 @charset "UTF-8";
+
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 * {
     margin: 0;
     padding: 0;
-    font-family: "Lexend", sans-serif;
+}
+
+html {
+    font-family: var(--font1);
 }
 
 /* Paleta de Cores */
 :root {
+    --font1: "Lexend", sans-serif;
     --font2: "Montserrat", sans-serif;
+    --font3: "Inter", sans-serif;
+    --font4: "Inclusive Sans", sans-serif;
     --cor1: #336556;
     --cor2: #FEF7EA;
     --cor3: #8B5F3C;
