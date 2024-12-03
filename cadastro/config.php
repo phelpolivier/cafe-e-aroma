@@ -13,3 +13,4 @@
     $sql="insert into Pessoa(nome,email,senha) values('$nome','$email','$senha')";
     mysqli_query($mysqli,$sql);
 ?> 
+
